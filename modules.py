@@ -19,7 +19,7 @@
 # greeting("Alpar")
 
 # #4 you can also assign aliases to functions
-from functions_with_arguments import user_guessing_game as theGame, greeting as yo
+from my_package.functions_with_arguments import user_guessing_game as theGame, greeting as yo
 
 theGame(str(65), "stop")
 yo("Alpar")
